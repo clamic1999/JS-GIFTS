@@ -30,7 +30,7 @@ header{
 }
 .header-content2 a{
     padding-top: 20px;
-    margin-left: 60px;
+    margin-left: 80px;
     font-size: 20px;
     color: black;
     list-style: none;
@@ -151,10 +151,12 @@ header{
     font-weight: bolder;
 }
 .about-content3{
+    justify-content: center;
+    text-align: center;
     padding: 30px;
 }
 .about-content2{
-    margin-left: 85px;
+    margin-left: 5px;
     background-color: #eeeeee;
 }
 
