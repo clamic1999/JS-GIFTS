@@ -76,8 +76,9 @@ top: 50px;
         background-color: #f89cab;
     }
     .home-content1 .contains{
-        width: 100%;
+        width: 150%;
         margin: 10px 10px;
+        overflow: hidden;
     }
     .home-content1 .carousel{
         height: 900px;
@@ -85,16 +86,18 @@ top: 50px;
         left: 10px;
     }
     .home-content1 .slider{
-        height: 100%;
-        display: block;
+        height: 50%;
+        display: flex;
         width: 400%;
         transition: all 1s ; 
+        
     }
     .home-content1 .slider section{
         flex-basis: 100%;
         display: block;
         justify-content: center;
         align-items: center;
+        
     }
 
     .home-content1 .contents h1{
@@ -104,7 +107,7 @@ top: 50px;
     }
     .home-content1 .contents p{
         font-size: 15px;
-        width: 20%;
+        width: 70%;
         font-weight: bolder;
     }
     .home-content1 .contents .btn1{
@@ -284,13 +287,53 @@ top: 50px;
 /* contact end */
 
     /* testimonial start */
-    .slider-3 section{
+    /* .slider-3 section{
         flex-basis: 100%;
         padding: 40px;
         justify-content: center;
     }
     .slider-3 section p{
         font-size: 13px;
+    } */
+
+
+    .testimonial-content1 h1{
+        font-size: 20px;
+    }
+    .testimonial{
+        position: relative;
+        top: -150px;
+        
+    }
+    .containeres{
+        width: 80%;
+        margin: auto;
+    }
+    .view-box{
+        width: 80%;
+        height: 24rem;
+        margin-left: 30px;
+        
+    }
+    .testimonials{
+        flex-direction: column;
+        width: 100%;
+    }
+    .user h3{
+        position: relative;
+        left: 420px;
+        font-weight: 700;
+        
+    }
+    .user img{
+        position: relative;
+        left: 550px;
+        bottom: 35px;
+    }
+    .user p{
+        width: 20rem;
+        margin-left: 380px;
+        font-size: 12px;
     }
 
     /* tesimonial end */
@@ -311,40 +354,3 @@ top: 50px;
 
 
 
-/* .testimonial-content1 h1{
-    font-size: 20px;
-}
-.testimonial{
-    position: relative;
-    top: -150px;
-    
-}
-.containeres{
-    width: 80%;
-    margin: auto;
-}
-.view-box{
-    width: 96%;
-    height: 24rem;
-    
-}
-.testimonials{
-    flex-direction: column;
-    width: 100%;
-}
-.user h3{
-    position: relative;
-    left: 420px;
-    font-weight: 700;
-    color: var(--h1-color);
-}
-.user img{
-    position: relative;
-    left: 550px;
-    bottom: 35px;
-}
-.user p{
-    width: 20rem;
-    margin-left: 420px;
-    font-size: 12px;
-} */
